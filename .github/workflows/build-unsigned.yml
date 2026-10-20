@@ -1,3 +1,4 @@
+
 name: Build GestaltEdit (unsigned)
 
 on:
@@ -58,3 +59,5 @@ jobs:
           path: ${{ runner.temp }}/GestaltEdit-27.2-unsigned.ipa
           if-no-files-found: error
           retention-days: 7
+
+# Trigger fresh build
